@@ -1,16 +1,32 @@
+
+import java.util.Scanner;
+
 public class Main
 {
   public static void main(String[] args)
   {
-    // write your code here
+    
+  stringManip(paint,house);
+  
+
+
   }
 
-  /** Precondition: s1 and s2 are not null
-  * Precondition: 0 <= n <= min(s1.length(), s2.length()
-  */
   public static void lastFirstN(String s1, String s2, int n)
   {
   
+      String output;
+      String firstN;
+      String lastN; 
+      
+      lastN = s1.substring(s1.length() - n);
+      firstN = s2.substring(0,n);
+
+      output = lastN + firstN;
+
+
+      System.out.println(output);
+
   }
 
   /** Precondition: s1 and s2 are not null
@@ -18,6 +34,24 @@ public class Main
   public static void stringManip(String s1, String s2)
   {
   
+     
+      String firstL;
+      String secondword;
+      String output;
+
+      
+
+      firstL = toUpperCase() s2.substring(0,1);
+
+      secondword = s2.substring(s2.length()- n);
+
+      output = firstL + secondword;
+
+      String firstW = s1.toUpperCase();
+
+      System.out.println(firstW);
+      System.out.println(output);
+
   }
 
   /** Precondition: s1 and s2 are not null
